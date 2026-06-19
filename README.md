@@ -26,18 +26,13 @@
             padding: 40px 20px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        .logo {
-            width: 160px;
-            height: 160px;
-            object-fit: contain;
-            border-radius: 50%;
-            margin-bottom: 15px;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-            background-color: #fff;
-        }
-        header h1 {
-            margin: 10px 0 5px 0;
-            font-size: 2.2rem;
+        .logo-placeholder {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            color: var(--white);
         }
         header p {
             font-style: italic;
@@ -189,7 +184,7 @@
 <body>
 
 <header>
-    <img src="120125.png" alt="The Jewellery Bazaar Logo" class="logo">
+    <div class="logo-placeholder">TJB</div>
     <h1>The Jewellery Bazaar India</h1>
     <p>Premium Artificial Jewellery Collection</p>
 </header>
@@ -286,4 +281,4 @@
 </footer>
 
 </body>
-</html>
+</HTML 
